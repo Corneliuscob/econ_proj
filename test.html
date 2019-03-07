@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+
+<!-- Example based on http://bl.ocks.org/mbostock/3887118 -->
+<!-- Tooltip example from http://www.d3noob.org/2013/01/adding-tooltips-to-d3js-graph.html -->
+<!-- Coding style based on http://gist.github.com/mbostock/5977197 -->
+
+<style>
+body {
+  font: 11px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.dot {
+  stroke: #000;
+}
+
+.tooltip {
+  position: absolute;
+  width: 200px;
+  height: 28px;
+  pointer-events: none;
+}
+</style>
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.8.0/d3.js"></script>
+  <script src="helpers.js" defer></script>
+  <script src="make_axes.js" defer></script>
+  <script src="make_scatter_chart.js" defer></script>
+  <script src="make_buttons.js" defer></script>
+  <script src="make_margins.js" defer></script>
+  <script src="make_svg.js" defer></script>
+  <script src="make_title.js" defer></script>
+  <script src="make_tooltip.js" defer></script>
+  <script src="charts_configuration.js" defer></script>
+</head>
+
+<style>
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+}
+
+section {
+  margin:auto;
+  width:80%;
+  height:100%;
+}
+
+</style>
+<body onresize="make_scatter_chart(scatter_data)">
+  <section id="scatter_chart" class="d3_chart">
+
+  </section>
+</body>
+
+</body>
+</html>
