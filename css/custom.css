@@ -1,0 +1,15 @@
+.box{
+    /*Some basic styling*/
+      border: 1px solid #333;
+      width: 60px;
+      height: 60px;
+      padding-top: 15px;
+      padding-right:1px; 
+      text-align:right;
+      margin: 2px auto;
+      background: #29a7d3;
+      color: white;
+      border-radius: 50%;
+      font-family:  helvetica;
+    
+  }
