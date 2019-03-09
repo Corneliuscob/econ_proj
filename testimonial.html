@@ -25,7 +25,9 @@
 
   <!-- Custom styles for this template -->
   <link href="css/new-age.css" rel="stylesheet">
-
+  <!-- Timeline and modernizr -->
+  <link rel="stylesheet" href="css/timeline.css"> <!-- Resource style -->
+  <script src="js/modernizr.js"></script> <!-- Modernizr -->
 </head>
 <style>
     body {
@@ -74,6 +76,9 @@
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="justification.html">Justification</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="testimonial.html">Testimonials</a>
+          </li>
         </ul>
       </div>
     </div>
@@ -97,65 +102,67 @@
 
   <section class="features" id="features">
     <div class="container">
-      <div class="section-heading text-center">
-        <h2>Unlimited Features, Unlimited Fun</h2>
-        <p class="text-muted">Check out what you can do with this app theme!</p>
-        <hr>
-      </div>
-      <div class="row">
-        <div class="col-lg-4 my-auto">
-          <div class="device-container">
-            <div class="device-mockup iphone6_plus portrait white">
-              <div class="device">
-                <div class="screen">
-                  <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
-                  <img src="img/demo-screen-1.jpg" class="img-fluid" alt="">
-                </div>
-                <div class="button">
-                  <!-- You can hook the "home button" to some JavaScript events or just remove it -->
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-8 my-auto">
-          <div class="container-fluid">
-            <div class="row">
-              <div class="col-lg-6">
-                <div class="feature-item">
-                  <i class="icon-screen-smartphone text-primary"></i>
-                  <h3>Device Mockups</h3>
-                  <p class="text-muted">Ready to use HTML/CSS device mockups, no Photoshop required!</p>
-                </div>
-              </div>
-              <div class="col-lg-6">
-                <div class="feature-item">
-                  <i class="icon-camera text-primary"></i>
-                  <h3>Flexible Use</h3>
-                  <p class="text-muted">Put an image, video, animation, or anything else in the screen!</p>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-6">
-                <div class="feature-item">
-                  <i class="icon-present text-primary"></i>
-                  <h3>Free to Use</h3>
-                  <p class="text-muted">As always, this theme is free to download and use for any purpose!</p>
-                </div>
-              </div>
-              <div class="col-lg-6">
-                <div class="feature-item">
-                  <i class="icon-lock-open text-primary"></i>
-                  <h3>Open Source</h3>
-                  <p class="text-muted">Since this theme is MIT licensed, you can use it commercially!</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+			<div class="col-md-12">
+				<div class="main-header text-center"><h1> Process Flow Diagram </h1></div>
+				<section id="cd-timeline" class="cd-container">
+					<div class="cd-timeline-block">
+						<div class="cd-timeline-img cd-picture">
+						</div> <!-- cd-timeline-img -->
+
+						<div class="cd-timeline-content">
+							<h2>Raw Materials<h2>
+							<p>We need sulfuric acid to produce sulfuric acid. Our raw materials are oxygen, sulfur and dilute sulfuric acid.</p>
+							<img src="./img/palvin.png">
+						</div> <!-- cd-timeline-content -->
+					</div> <!-- cd-timeline-block -->
+
+					<div class="cd-timeline-block">
+						<div class="cd-timeline-img cd-movie">
+						</div> <!-- cd-timeline-img -->
+
+						<div class="cd-timeline-content">
+							<h2>Burning Sulphur</h2>
+							<p>First, sulfur reacts with oxygen in a furnace to produce sulfuric dioxide, SO<sub>2</sub>.</p>
+							<img src="./img/palvin.png">
+						</div> <!-- cd-timeline-content -->
+					</div> <!-- cd-timeline-block -->
+
+					<div class="cd-timeline-block">
+						<div class="cd-timeline-img cd-picture">
+						</div> <!-- cd-timeline-img -->
+
+						<div class="cd-timeline-content">
+							<h2>Catalytic Converter</h2>
+							<p>SO<sub>2</sub> is then converted to sulfur trioxide, SO<sub>3</sub> in a converter bed using a vanadium pentoxide catalyst.</p>
+							<img src="./img/palvin.png">
+						</div> <!-- cd-timeline-content -->
+					</div> <!-- cd-timeline-block -->
+
+					<div class="cd-timeline-block">
+						<div class="cd-timeline-img cd-location">
+						</div> <!-- cd-timeline-img -->
+
+						<div class="cd-timeline-content">
+							<h2>Adsorption Process</h2>
+							<p>SO<sub>3</sub> is absorbed into weak sulfuric acid to form 98.5% concentrated sulfuric acid.</p>
+							<img src="./img/palvin.png">
+						</div> <!-- cd-timeline-content -->
+					</div> <!-- cd-timeline-block -->
+
+					<div class="cd-timeline-block">
+						<div class="cd-timeline-img cd-movie">
+						</div> <!-- cd-timeline-img -->
+
+						<div class="cd-timeline-content">
+							<h2>Storage</h2>
+							<p>The final concentrated sulfuric acid product is stored in a storage tank and ready for distribution.</p>
+							<img src="./img/palvin.png">
+						</div> <!-- cd-timeline-content -->
+					</div> <!-- cd-timeline-block -->
+				</section> <!-- cd-timeline -->
+
+			</div>
+		</div>
   </section>
 
   <section class="cta">
@@ -179,7 +186,7 @@
               </div>  
 
         <script src="https://d3js.org/d3.v3.min.js"></script>
-        <script src="d4.js"></script>
+        <script src="js/d4.js"></script>
 
 
   </section>
@@ -211,7 +218,7 @@
 
   <!-- Custom scripts for this template -->
   <script src="js/new-age.min.js"></script>
-
+  <script src="js/timeline.js"></script>
 
 </body>
 
