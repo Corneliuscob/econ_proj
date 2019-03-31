@@ -1,0 +1,441 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Survey</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="vendor/simple-line-icons/css/simple-line-icons.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+
+  <!-- Plugin CSS -->
+  <link rel="stylesheet" href="device-mockups/device-mockups.min.css">
+
+  <!-- Custom styles for this template -->
+  <link href="css/new-age.css" rel="stylesheet">
+
+</head>
+<style>
+    body {
+      font: 11px sans-serif;
+    }
+    
+    .axis path, 
+    .axis line {
+      fill: none;
+      stroke: #000;
+      shape-rendering: crispEdges;
+    }
+    
+    .dot {
+      stroke: #000;
+    }
+    
+    .tooltip {
+      position: absolute;
+      width: 200px;
+      height: 28px;
+      pointer-events: none;
+    }
+    </style>
+
+
+<body id="page-top">
+
+    <!-- Navigation -->
+
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand js-scroll-trigger" href="index.html">
+                <img border="0" alt="" src="img/wobc_logo.png" width="200" height="79">
+            </a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                Menu
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="market.html">Market</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="economics.html">Economics</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="justification.html">Justification</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="aboutus.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="testimonial.html">Testimonials</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Navigation -->
+
+
+    <section class="download bg-secondary text-center" id="download">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 mx-auto">
+                    <h2 class="section-heading">Survey</h2>
+                    <p>Let us get to know you better</p>
+                    <div class="badges">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="features" id="features">
+        <div class="container">
+            <div class="section-heading text-center">
+                <h2>Just a few questions and we can recommend you your first beer to try</h2>
+                <p class="text-muted">Try something new!</p>
+                <hr>
+            </div>
+
+            <!--Beer Survey-->
+            <form class="form-horizontal" action="survey_complete.html">
+                <fieldset>
+
+                    <!-- Multiple Checkboxes -->
+                    <div class="form-group">
+                        <label class="col-md-4 control-label" for="checkboxes">Why do you enjoy craft beer?</label>
+                        <div class="col-md-4">
+                            <div class="checkbox">
+                                <label for="checkboxes-0">
+                                    <input type="checkbox" name="checkboxes" id="checkboxes-0" value="1">
+                                    The taste
+                                </label>
+                            </div>
+                            <div class="checkbox">
+                                <label for="checkboxes-1">
+                                    <input type="checkbox" name="checkboxes" id="checkboxes-1" value="2">
+                                    My friends drink it
+                                </label>
+                            </div>
+                            <div class="checkbox">
+                                <label for="checkboxes-2">
+                                    <input type="checkbox" name="checkboxes" id="checkboxes-2" value="3">
+                                    It's new and hip
+                                </label>
+                            </div>
+                            <div class="checkbox">
+                                <label for="checkboxes-3">
+                                    <input type="checkbox" name="checkboxes" id="checkboxes-3" value="4">
+                                    The price
+                                </label>
+                            </div>
+                            <div class="checkbox">
+                                <label for="checkboxes-4">
+                                    <input type="checkbox" name="checkboxes" id="checkboxes-4" value="5">
+                                    Variety of styles
+                                </label>
+                            </div>
+                            <div class="checkbox">
+                                <label for="checkboxes-5">
+                                    <input type="checkbox" name="checkboxes" id="checkboxes-5" value="6">
+                                    Local brews
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Multiple Radios -->
+                    <div class="form-group">
+                        <label class="col-md-4 control-label" for="radios1">Roughly how often do you drink beer?</label>
+                        <div class="col-md-4">
+                            <div class="radio">
+                                <label for="radios1-0">
+                                    <input type="radio" name="radios1" id="radios1-0" value="1">
+                                    Once a week
+                                </label>
+                            </div>
+                            <div class="radio">
+                                <label for="radios1-1">
+                                    <input type="radio" name="radios1" id="radios1-1" value="2">
+                                    Twice a week
+                                </label>
+                            </div>
+                            <div class="radio">
+                                <label for="radios1-2">
+                                    <input type="radio" name="radios1" id="radios1-2" value="3">
+                                    Whenever I'm with company
+                                </label>
+                            </div>
+                            <div class="radio">
+                                <label for="radios1-3">
+                                    <input type="radio" name="radios1" id="radios1-3" value="4">
+                                    I am a raging alcoholic
+                                </label>
+                            </div>
+                            <div class="radio">
+                                <label for="radios1-4">
+                                    <input type="radio" name="radios1" id="radios1-4" value="5">
+                                    Every now and then
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Multiple Radios -->
+                    <div class="form-group">
+                        <label class="col-md-4 control-label" for="radios2">On average how much of the alcohol that you consume is craft beer?</label>
+                        <div class="col-md-4">
+                            <div class="radio">
+                                <label for="radios2-0">
+                                    <input type="radio" name="radios2" id="radios2-0" value="1">
+                                    0-20%
+                                </label>
+                            </div>
+                            <div class="radio">
+                                <label for="radios2-1">
+                                    <input type="radio" name="radios2" id="radios2-1" value="2">
+                                    21-40%
+                                </label>
+                            </div>
+                            <div class="radio">
+                                <label for="radios2-2">
+                                    <input type="radio" name="radios2" id="radios2-2" value="3">
+                                    41-60%
+                                </label>
+                            </div>
+                            <div class="radio">
+                                <label for="radios2-3">
+                                    <input type="radio" name="radios2" id="radios2-3" value="4">
+                                    61-80%
+                                </label>
+                            </div>
+                            <div class="radio">
+                                <label for="radios2-4">
+                                    <input type="radio" name="radios2" id="radios2-4" value="5">
+                                    81-100%
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Multiple Radios -->
+                    <div class="form-group">
+                        <label class="col-md-4 control-label" for="radios3">Do you prefer cheap beers or more high quality?</label>
+                        <div class="col-md-4">
+                            <div class="radio">
+                                <label for="radios3-0">
+                                    <input type="radio" name="radios3" id="radios3-0" value="1">
+                                    Cheap, beer is beer
+                                </label>
+                            </div>
+                            <div class="radio">
+                                <label for="radios3-1">
+                                    <input type="radio" name="radios3" id="radios3-1" value="2">
+                                    I enjoy the taste of a well brewed beer
+                                </label>
+                            </div>
+                            <div class="radio">
+                                <label for="radios3-2">
+                                    <input type="radio" name="radios3" id="radios3-2" value="3">
+                                    Money is no issue to me
+                                </label>
+                            </div>
+                            <div class="radio">
+                                <label for="radios3-3">
+                                    <input type="radio" name="radios3" id="radios3-3" value="4">
+                                    Whatever I can get my hands on
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Multiple Radios -->
+                    <div class="form-group">
+                        <label class="col-md-4 control-label" for="radios4">If you had to choose a colour of craft beer, what would it be?</label>
+                        <div class="col-md-4">
+                            <div class="radio">
+                                <label for="radios4-0">
+                                    <input type="radio" name="radios4" id="radios4-0" value="1">
+                                    Yellow
+                                </label>
+                            </div>
+                            <div class="radio">
+                                <label for="radios4-1">
+                                    <input type="radio" name="radios4" id="radios4-1" value="2">
+                                    Amber
+                                </label>
+                            </div>
+                            <div class="radio">
+                                <label for="radios4-2">
+                                    <input type="radio" name="radios4" id="radios4-2" value="3">
+                                    Brown
+                                </label>
+                            </div>
+                            <div class="radio">
+                                <label for="radios4-3">
+                                    <input type="radio" name="radios4" id="radios4-3" value="4">
+                                    Black
+                                </label>
+                            </div>
+                            <div class="radio">
+                                <label for="radios4-4">
+                                    <input type="radio" name="radios4" id="radios4-4" value="5">
+                                    Don't know
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Multiple Radios -->
+                    <div class="form-group">
+                        <label class="col-md-4 control-label" for="radios5">What alcohol content do you enjoy in your craft beer?</label>
+                        <div class="col-md-4">
+                            <div class="radio">
+                                <label for="radios5-0">
+                                    <input type="radio" name="radios5" id="radios5-0" value="1">
+                                    &lt;4%
+                                </label>
+                            </div>
+                            <div class="radio">
+                                <label for="radios5-1">
+                                    <input type="radio" name="radios5" id="radios5-1" value="2">
+                                    5-7%
+                                </label>
+                            </div>
+                            <div class="radio">
+                                <label for="radios5-2">
+                                    <input type="radio" name="radios5" id="radios5-2" value="3">
+                                    7-9%
+                                </label>
+                            </div>
+                            <div class="radio">
+                                <label for="radios5-3">
+                                    <input type="radio" name="radios5" id="radios5-3" value="4">
+                                    &gt;9%
+                                </label>
+                            </div>
+                            <div class="radio">
+                                <label for="radios5-4">
+                                    <input type="radio" name="radios5" id="radios5-4" value="5">
+                                    Don't know
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Multiple Radios -->
+                    <div class="form-group">
+                        <label class="col-md-4 control-label" for="radios6">What age group do you fall under?</label>
+                        <div class="col-md-4">
+                            <div class="radio">
+                                <label for="radios6-0">
+                                    <input type="radio" name="radios6" id="radios6-0" value="1">
+                                    18-30
+                                </label>
+                            </div>
+                            <div class="radio">
+                                <label for="radios6-1">
+                                    <input type="radio" name="radios6" id="radios6-1" value="2">
+                                    30-40
+                                </label>
+                            </div>
+                            <div class="radio">
+                                <label for="radios6-2">
+                                    <input type="radio" name="radios6" id="radios6-2" value="3">
+                                    40-50
+                                </label>
+                            </div>
+                            <div class="radio">
+                                <label for="radios6-3">
+                                    <input type="radio" name="radios6" id="radios6-3" value="4">
+                                    60-70
+                                </label>
+                            </div>
+                            <div class="radio">
+                                <label for="radios6-4">
+                                    <input type="radio" name="radios6" id="radios6-4" value="5">
+                                    70+
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Button -->
+                    <div class="form-group">
+                        <div class="col-md-4">
+                            <button id="singlebutton" name="singlebutton" class="btn btn-primary">Submit Survey</button>
+                        </div>
+                    </div>
+
+                </fieldset>
+            </form>
+
+        </div>
+    </section>
+
+
+    <!--
+    <section class="contact bg-primary" id="contact">
+
+        <h2>
+            We
+            <i class="fas fa-heart"></i>
+            new friends!
+        </h2>
+
+        <h1>Hi there </h1>
+        <div id="chart">
+        </div>
+
+        <script src="https://d3js.org/d3.v3.min.js"></script>
+        <script src="js/d4.js"></script>
+
+
+    </section>
+        -->
+    <footer>
+        <div class="container">
+            <p>&copy; Your Website 2019. All Rights Reserved.</p>
+            <ul class="list-inline">
+                <li class="list-inline-item">
+                    <a href="#">Privacy</a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#">Terms</a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#">FAQ</a>
+                </li>
+            </ul>
+        </div>
+
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/new-age.min.js"></script>
+
+
+</body>
+
+</html>

@@ -177,7 +177,6 @@ header.masthead .device-container {
   max-width: 325px;
   margin-right: auto;
   margin-left: auto;
-  vertical-align: middle;
 }
 
 header.masthead .device-container .screen img {
@@ -253,21 +252,18 @@ section.features .section-heading p {
 
 section.features .device-container,
 section.features .feature-item {
-    max-width: 325px;
-    margin: 0 auto;
-    vertical-align: middle;
+  max-width: 325px;
+  margin: 0 auto;
 }
 
 section.features .device-container {
-    margin-bottom: 100px;
-    vertical-align: middle;
+  margin-bottom: 100px;
 }
 
 @media (min-width: 992px) {
-    section.features .device-container {
-        margin-bottom: 0;
-        vertical-align: middle;
-    }
+  section.features .device-container {
+    margin-bottom: 0;
+  }
 }
 
 section.features .feature-item {
