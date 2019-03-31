@@ -177,6 +177,7 @@ header.masthead .device-container {
   max-width: 325px;
   margin-right: auto;
   margin-left: auto;
+  vertical-align: middle;
 }
 
 header.masthead .device-container .screen img {
@@ -252,18 +253,21 @@ section.features .section-heading p {
 
 section.features .device-container,
 section.features .feature-item {
-  max-width: 325px;
-  margin: 0 auto;
+    max-width: 325px;
+    margin: 0 auto;
+    vertical-align: middle;
 }
 
 section.features .device-container {
-  margin-bottom: 100px;
+    margin-bottom: 100px;
+    vertical-align: middle;
 }
 
 @media (min-width: 992px) {
-  section.features .device-container {
-    margin-bottom: 0;
-  }
+    section.features .device-container {
+        margin-bottom: 0;
+        vertical-align: middle;
+    }
 }
 
 section.features .feature-item {
@@ -440,4 +444,16 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 .btn-xl {
   font-size: 11px;
   padding: 15px 45px;
+}
+
+/*Added this here to enlarge pictures*/
+
+.thumbnail:hover {
+    position: relative;
+    top: -25px;
+    left: -35px;
+    width: 500px;
+    height: auto;
+    display: block;
+    z-index: 999;
 }
