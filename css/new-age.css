@@ -4,6 +4,7 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-new-age/blob/master/LICENSE)
  */
 
+
 html,
 body {
   width: 100%;
@@ -453,3 +454,4 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
     display: block;
     z-index: 999;
 }
+

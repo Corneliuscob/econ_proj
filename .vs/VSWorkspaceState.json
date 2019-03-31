@@ -2,11 +2,12 @@
   "ExpandedNodes": [
     "",
     "\\css",
+    "\\js",
     "\\vendor",
-    "\\vendor\\simple-line-icons",
+    "\\vendor\\bootstrap",
     "\\vendor\\simple-line-icons\\css",
     "\\vendor\\simple-line-icons\\fonts"
   ],
-  "SelectedNode": "\\vendor\\simple-line-icons\\fonts\\Simple-Line-Icons.svg",
+  "SelectedNode": "\\js\\panel.js",
   "PreviewInSolutionExplorer": false
 }
