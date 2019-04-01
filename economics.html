@@ -28,7 +28,22 @@
 
 
 </head>
+<style>
+        .axis text{
+      font-family: Helvetica, Arial, sans-serif;
+      font-size: 12px;
+      text-anchor: end;
+    }
+.bar.positive {
+    fill: steelblue;
+          }
 
+          .bar.negative {
+
+      fill: darkred;
+          }
+
+</style>
 <body id="page-top">
 
     <!-- Navigation -->
@@ -80,6 +95,24 @@
         </div>
     </section>
 
+
+    <div class="container">
+
+        <div class="section-heading text-center">
+            <h2>Cash Flow</h2>
+            <p class="text-muted">Look at all our money!</p>
+            <hr>
+        </div>
+
+        <div id="chart">
+        </div>
+    </div>
+    
+
+
+
+
+
     <section class="features" id="features">
         <div class="container">
             <div class="section-heading text-center">
@@ -95,7 +128,7 @@
 
                             <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
                             <img src="img/net_fund_cash_flow.png" class="thumbnail" height="300" width="400" alt="">
-                            <p class="text-muted">Net Fund Cash Flwo over 20 years. Might want to just have this in an added pdf instead of on the website?</p>
+                            <p class="text-muted">Net Fund Cash Flow over 20 years. Might want to just have this in an added pdf instead of on the website?</p>
 
                         </div>
                     </div>
@@ -210,6 +243,10 @@
     <script src="js/new-age.min.js"></script>
     <!-- Mathjax -->
     <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async></script>
+    <!-- d3js -->
+    <script src="https://d3js.org/d3.v3.min.js"></script>
+    <script src="js/bargraph1.js"></script>
+
 </body>
 
 </html>
