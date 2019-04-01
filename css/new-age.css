@@ -455,3 +455,13 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
     z-index: 999;
 }
 
+.custom-alvin-white-center {
+    color: white;
+    text-align: center;
+}
+
+
+.custom-alvin-white-left {
+    color: white;
+    text-align: left;
+}
