@@ -3,11 +3,11 @@
     "",
     "\\css",
     "\\js",
+    "\\scss",
     "\\vendor",
     "\\vendor\\bootstrap",
-    "\\vendor\\simple-line-icons\\css",
-    "\\vendor\\simple-line-icons\\fonts"
+    "\\vendor\\bootstrap\\css"
   ],
-  "SelectedNode": "\\js\\panel.js",
+  "SelectedNode": "\\css\\panel.css",
   "PreviewInSolutionExplorer": false
 }
