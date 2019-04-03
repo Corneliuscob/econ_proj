@@ -2,8 +2,6 @@
   "ExpandedNodes": [
     "",
     "\\css",
-    "\\js",
-    "\\scss",
     "\\vendor",
     "\\vendor\\bootstrap",
     "\\vendor\\bootstrap\\css"

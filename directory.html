@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>World of BeerCraft</title>
+  <title>Directory</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -24,9 +24,33 @@
   <link rel="stylesheet" href="device-mockups/device-mockups.min.css">
 
   <!-- Custom styles for this template -->
-  <link href="css/new-age.min.css" rel="stylesheet">
+  <link href="css/new-age.css" rel="stylesheet">
 
 </head>
+<style>
+    body {
+      font: 11px sans-serif;
+    }
+    
+    .axis path, 
+    .axis line {
+      fill: none;
+      stroke: #000;
+      shape-rendering: crispEdges;
+    }
+    
+    .dot {
+      stroke: #000;
+    }
+    
+    .tooltip {
+      position: absolute;
+      width: 200px;
+      height: 28px;
+      pointer-events: none;
+    }
+    </style>
+
 
 <body id="page-top">
 
@@ -64,33 +88,41 @@
     </nav>
     <!-- Navigation -->
 
-    <header class="masthead">
-        <div class="container h-100">
-            <div class="row h-100">
 
-                <div class="col-lg-7 my-auto">
-                    <div class="header-content mx-auto">
-                        <h1 class="mb-5">World of BeerCraft</h1>
-                        <h2 class="mb-5">Figuring out your beer of choice shouldn’t be difficult</h2>
-                        <p class="mb-5">
-                            29 breweries, 53 different styles of beers, and over 263 brands of beers available to the lower mainland means that you have a lot to choose from but which ones do you try first?
-                            Take the stress out of all of that and let our algorithm match a taste to your liking and have it delivered to your doorstep!
-                        </p>
-                        <a href="survey.html" class="btn btn-outline btn-xl js-scroll-trigger">Start the Survey Now!</a>
+    <section class="download bg-secondary text-center" id="download">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 mx-auto">
+                    <h2 class="section-heading">Directory</h2>
+                    <p>Here you can find links to each page</p>
+                    <div class="badges">
+
                     </div>
                 </div>
-
-                <div class="col-lg-5 my-auto">
-                    <div class="device-container">
-                        <img src="img/hops.png" style="width:100%">
-                        <p></p>
-                        <a href="subscription.html" class="btn btn-outline btn-xl js-scroll-trigger">Start Subscription Now $33/mo!*</a>
-                    </div>
-                </div>
-
             </div>
         </div>
-    </header>
+    </section>
+
+    <section class="features" id="features">
+        <div class="container">
+            <h5><a href="aboutus.html">About us</a></h5>
+            <h5><a href="branding.html">Branding</a></h5>
+            <h5><a href="economics.html">Economics</a></h5>
+            <h5><a href="ethics.html">Ethics</a></h5>
+            <h5><a href="index.html">Home</a></h5>
+            <h5><a href="justification.html">Justification</a></h5>
+            <h5><a href="market.html">Market</a></h5>
+            <h5><a href="risks.html">Risks</a></h5>
+            <h5><a href="subscription.html">Subscription</a></h5>
+            <h5><a href="survey.html">Survey</a></h5>
+            <h5><a href="survey_complete.html">Completed Survery</a></h5>
+            <h5><a href="sustainability.html">Sustainability</a></h5>
+            <h5><a href="testimonial.html">Testimonials</a></h5>
+            <h5><a href="timeline.html">Timeline</a></h5>
+
+        </div>
+    </section>
+
 
     <footer>
         <div class="container">
@@ -114,9 +146,7 @@
                     </ul>
                 </div>
                 <div class="col-md-4">
-                    <p>
-                        *Discount available for members of our recycling program
-                    </p>
+
                 </div>
             </div>
         </div>
@@ -131,6 +161,7 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/new-age.min.js"></script>
+
 
 </body>
 
