@@ -12,7 +12,7 @@ height = 400 - margin.top - margin.bottom;
 
 var y = d3.scale.linear()
 .range([height, 0]);
-
+  
 var x = d3.scale.ordinal()
 .rangeRoundBands([0, width], .1);
 
