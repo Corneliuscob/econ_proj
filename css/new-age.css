@@ -16,14 +16,14 @@ body {
 }
 
 a {
-  color: #fdcc52;
-  -webkit-transition: all .35s;
-  transition: all .35s;
+    color: #0000EE;
+    -webkit-transition: all .35s;
+    transition: all .35s;
 }
 
-a:hover, a:focus {
-  color: #fcbd20;
-}
+    a:hover, a:focus {
+        color: #0000EE;
+    }
 
 hr {
   max-width: 100px;
@@ -43,7 +43,7 @@ h4,
 h5,
 h6 {
   font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
-  font-weight: 200;
+  font-weight: 300;
   letter-spacing: 1px;
 }
 
@@ -156,33 +156,42 @@ section h2 {
 header.masthead {
   position: relative;
   width: 100%;
-  padding-top: 150px;
+  padding-top: 100px;
   padding-bottom: 100px;
   color: white;
   background: url("../img/bg-pattern.png"), #ac54d8;
   background: url("../img/bg-pattern.png"), -webkit-gradient(linear, right top, left top, from(#ac54d8), to(#dc2430));
   background: url("../img/bg-pattern.png"), linear-gradient(to left, #ac54d8, #dc2430);
+
 }
 
-header.masthead .header-content {
-  max-width: 500px;
-  margin-bottom: 100px;
-  text-align: center;
-}
+    header.masthead .header-content {
+        max-width: 650px;
+        margin-bottom: 100px;
+        text-align: center;
+
+    }
 
 header.masthead .header-content h1 {
   font-size: 30px;
+
 }
 
 header.masthead .device-container {
   max-width: 325px;
   margin-right: auto;
   margin-left: auto;
+
 }
 
-header.masthead .device-container .screen img {
-  border-radius: 3px;
-}
+    header.masthead .device-container .screen img {
+        border-radius: 3px;
+    }
+
+    .scaled{
+        transform: scale(0.7);
+    }
+
 
 @media (min-width: 992px) {
   header.masthead {
@@ -268,24 +277,27 @@ section.features .device-container {
 }
 
 section.features .feature-item {
-  padding-top: 50px;
+  padding-top: 0px;
   padding-bottom: 50px;
   text-align: center;
+
 }
 
 section.features .feature-item h3 {
-  font-size: 30px;
+  font-size: 25px;
 }
 
-section.features .feature-item i {
-  font-size: 80px;
-  display: block;
-  margin-bottom: 15px;
-  background: -webkit-gradient(linear, right top, left top, from(#ac54d8), to(#dc2430));
-  background: linear-gradient(to left, #ac54d8, #dc2430);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
+    section.features .feature-item i {
+        font-size: 60px;
+        display: block;
+        margin-bottom: 10px;
+        background: -webkit-gradient(linear, right top, left top, from(#8ee9e2), to(#607b5b));
+        background: linear-gradient(to left, #8ee9e2, #607b5b);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+
 
 section.cta {
   position: relative;
@@ -324,7 +336,7 @@ section.cta .overlay {
 }
 
 section.contact {
-  text-align: center;
+  text-align: left;
 }
 
 section.contact h2 {
