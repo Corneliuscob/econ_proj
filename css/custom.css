@@ -79,3 +79,9 @@ margin-top: 0;
   #myBtn:hover {
     background-color: #555; /* Add a dark-grey background on hover */
   }
+.btn-asset{
+  color: white;
+  background-color: orange;
+  border-radius: 50px;
+  font-size: 14px;
+}

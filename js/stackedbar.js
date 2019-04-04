@@ -193,7 +193,7 @@ width = 900 - margin.left - margin.right,
 height = 500 - margin.top - margin.bottom;
 d3.select("#chart").append("button")
 .attr("type","button")
-.attr("class","btn btn-outline btn-xl js-scroll-trigger")
+.attr("class","btn-asset btn-outline btn-xl js-scroll-trigger")
 .text("Change Layout")
 .style("position","relative")
 .style("left","5px")
