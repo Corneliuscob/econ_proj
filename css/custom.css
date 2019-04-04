@@ -46,6 +46,63 @@ font-size: 2.5rem;
 margin-top: 0;
 }
 
+section-alv {
+  padding: 0px 0;
+}
+section-alv.features {
+  margin-bottom: 5px;
+}
+
+section-alv.features .section-heading {
+  margin-bottom: 5px;
+}
+
+section-alv.features .section-heading h2 {
+  margin-top: 50;
+}
+
+section-alv.features .section-heading p {
+  margin-bottom: 0;
+}
+
+section-alv.features .device-container,
+section-alv.features .feature-item {
+  max-width: 325px;
+  margin: 0 auto;
+}
+
+section-alv.features .device-container {
+  margin-bottom: 00px;
+}
+
+@media (min-width: 992px) {
+  section-alv.features .device-container {
+    margin-bottom: 0;
+  }
+}
+
+section-alv.features .feature-item {
+  padding-top: 25px;
+  padding-bottom: 50px;
+  text-align: center;
+
+}
+
+section-alv.features .feature-item h3 {
+  font-size: 25px;
+}
+
+    section-alv.features .feature-item i {
+        font-size: 60px;
+        display: block;
+        margin-bottom: 0px;
+        background: -webkit-gradient(linear, right top, left top, from(#8ee9e2), to(#607b5b));
+        background: linear-gradient(to left, #8ee9e2, #607b5b);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+
 .bh-link{
  color:#0000FF;
  /* float: left; */
