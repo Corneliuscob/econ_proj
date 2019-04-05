@@ -19,6 +19,7 @@ a {
     color: #0000EE;
     -webkit-transition: all .35s;
     transition: all .35s;
+    font-weight:400;
 }
 
     a:hover, a:focus {

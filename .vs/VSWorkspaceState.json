@@ -2,10 +2,11 @@
   "ExpandedNodes": [
     "",
     "\\css",
+    "\\js",
     "\\vendor",
-    "\\vendor\\bootstrap",
-    "\\vendor\\bootstrap\\css"
+    "\\vendor\\bootstrap\\css",
+    "\\vendor\\bootstrap\\js"
   ],
-  "SelectedNode": "\\testimonial.html",
+  "SelectedNode": "\\timeline.html",
   "PreviewInSolutionExplorer": false
 }

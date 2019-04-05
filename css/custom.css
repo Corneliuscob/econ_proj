@@ -47,7 +47,7 @@ margin-top: 0;
 }
 
 section-alv {
-  padding: 0px 0;
+  padding: 0px 0 0 0;
 }
 section-alv.features {
   margin-bottom: 5px;
@@ -58,7 +58,7 @@ section-alv.features .section-heading {
 }
 
 section-alv.features .section-heading h2 {
-  margin-top: 50;
+  margin-top: 0px;
 }
 
 section-alv.features .section-heading p {
@@ -82,7 +82,7 @@ section-alv.features .device-container {
 }
 
 section-alv.features .feature-item {
-  padding-top: 25px;
+  padding-top: 50px;
   padding-bottom: 50px;
   text-align: center;
 
@@ -95,7 +95,7 @@ section-alv.features .feature-item h3 {
     section-alv.features .feature-item i {
         font-size: 60px;
         display: block;
-        margin-bottom: 0px;
+        margin-bottom: 10px;
         background: -webkit-gradient(linear, right top, left top, from(#8ee9e2), to(#607b5b));
         background: linear-gradient(to left, #8ee9e2, #607b5b);
         -webkit-background-clip: text;

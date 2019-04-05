@@ -25,14 +25,16 @@
 
     <!-- Custom styles for this template -->
     <link href="css/new-age.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-        
+
     <style>
 
         * {
             box-sizing: border-box;
+            font-family: "Comic Sans MS";
         }
 
         .row {
@@ -136,36 +138,49 @@
     <!-- Navigation -->
 
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-            <div class="container">
-                <a class="navbar-brand js-scroll-trigger" href="index.html">
-                    <img border="0" alt="" src="img/wobc_logo.png" width="200" height="79">
-                </a>
-                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    Menu
-                    <i class="fas fa-bars"></i>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                                <a class="nav-link js-scroll-trigger" href="aboutus.html">About Us</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link js-scroll-trigger" href="market.html">Market</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link js-scroll-trigger" href="economics.html">Economics</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link js-scroll-trigger" href="assets.html">Assets</a>
-                        </li>
-    
-                        <li class="nav-item">
-                            <a class="nav-link js-scroll-trigger" href="testimonial.html">Testimonials</a>
-                        </li>
-                    </ul>
-                </div>
+        <div class="container">
+            <a class="navbar-brand js-scroll-trigger" href="index.html">
+                <img border="0" alt="" src="img/wobc_logo.png" width="200" height="79">
+            </a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                Menu
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link js-scroll-trigger" href="aboutus.html">About Us</a>
+                        <div class="dropdown-content">
+                            <a href="ethics.html">Ethics</a>
+                            <a href="branding.html">Branding</a>
+                            <a href="sustainability.html">Sustainability</a>
+                            <a href="risks.html">Risks</a>
+                        </div>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="market.html">Market</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link js-scroll-trigger" href="economics.html">Economics</a>
+                        <div class="dropdown-content">
+                            <a href="finance.html">Finance Scheduling</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link js-scroll-trigger" href="assets.html">Assets</a>
+                        <div class="dropdown-content">
+                            <a href="timeline.html">Timeline</a>
+                        </div>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="testimonial.html">Testimonials</a>
+                    </li>
+                </ul>
             </div>
-        </nav>
+        </div>
+    </nav>
     <!-- Navigation -->
 
 
@@ -173,8 +188,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-8 mx-auto">
-                    <h2 class="section-heading">Give us your money</h2>
-                    <p>Please</p>
+                    <h2 class="section-heading" style="font-family:'Comic Sans MS'">Give us your money</h2>
+                    <p style="font-family:'Comic Sans MS'">Please</p>
                     <div class="badges">
 
                     </div>
@@ -186,7 +201,7 @@
     <section class="features" id="features">
         <div class="container">
 
-            <h2>Checkout Form</h2>
+            <h2 style="font-family:'Comic Sans MS'">Checkout Form</h2>
             <p>Don't be a fool by submitting your financial information on untrusted sites</p>
             <div class="row">
                 <div class="col-75">
@@ -195,15 +210,15 @@
 
                             <div class="row">
                                 <div class="col-50">
-                                    <h3>Billing Address</h3>
+                                    <h3 style="font-family:'Comic Sans MS'">Billing Address</h3>
                                     <label for="fname"><i class="fa fa-user"></i> Full Name</label>
-                                    <input type="text" id="fname" name="firstname" placeholder="Gabriel Potvin">
+                                    <input type="text" id="fname" name="firstname" placeholder="Gabriel P">
                                     <label for="email"><i class="fa fa-envelope"></i> Email</label>
-                                    <input type="text" id="email" name="email" placeholder="gabriel.potvin@ubc.ca">
+                                    <input type="text" id="email" name="email" placeholder="gabriel.p@yoobeesea.org">
                                     <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
-                                    <input type="text" id="adr" name="address" placeholder="2360 East Mall">
+                                    <input type="text" id="adr" name="address" placeholder="2360 North Mall">
                                     <label for="city"><i class="fa fa-institution"></i> City</label>
-                                    <input type="text" id="city" name="city" placeholder="Vancouver">
+                                    <input type="text" id="city" name="city" placeholder="Vancoover">
 
                                     <div class="row">
                                         <div class="col-50">
@@ -212,13 +227,13 @@
                                         </div>
                                         <div class="col-50">
                                             <label for="zip">Postal Code</label>
-                                            <input type="text" id="zip" name="zip" placeholder="V6T 1Z3">
+                                            <input type="text" id="zip" name="zip" placeholder="V9V 9V9">
                                         </div>
                                     </div>
                                 </div>
 
                                 <div class="col-50">
-                                    <h3>Payment</h3>
+                                    <h3 style="font-family:'Comic Sans MS'">Payment</h3>
                                     <label for="fname">Accepted Cards</label>
                                     <div class="icon-container">
                                         <i class="fa fa-cc-visa" style="color:navy;"></i>
@@ -227,7 +242,7 @@
                                         <i class="fa fa-cc-discover" style="color:orange;"></i>
                                     </div>
                                     <label for="cname">Name on Card</label>
-                                    <input type="text" id="cname" name="cardname" placeholder="Gabriel Potvin">
+                                    <input type="text" id="cname" name="cardname" placeholder="Gabriel P">
                                     <label for="ccnum">Credit card number</label>
                                     <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
                                     <label for="expmonth">Exp Month</label>
@@ -248,13 +263,13 @@
                             <label>
                                 <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
                             </label>
-                            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="btn">ConTINE tO CHeCkOUt</a>
+                            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="btn" style="font-family:'Comic Sans MS'">ConTINE tO CHeCkOUt</a>
                         </form>
                     </div>
                 </div>
                 <div class="col-25">
                     <div class="container-card">
-                        <h4>Cart <span class="price" style="color:black"><i class="fa fa-shopping-cart"></i> <b>1</b></span></h4>
+                        <h4 style="font-family:'Comic Sans MS'">Cart <span class="price" style="color:black"><i class="fa fa-shopping-cart"></i> <b>1</b></span></h4>
                         <p>Monthly Subscription <span class="price">$33</span></p>
                         <p>Total <span class="price" style="color:black"><b>$33</b></span></p>
                     </div>
@@ -297,18 +312,15 @@
                     <p>&copy; Your Website 2019. All Rights Reserved.</p>
                     <ul class="list-inline">
                         <li class="list-inline-item">
-                            <a href="#">Privacy</a>
+                            <a href="privacy.html">Privacy</a>
                         </li>
                         <li class="list-inline-item">
-                            <a href="#">Terms</a>
+                            <a href="terms.html">Terms</a>
                         </li>
-                        <li class="list-inline-item">
+                        <!--<li class="list-inline-item">
                             <a href="#">FAQ</a>
-                        </li>
+                        </li>-->
                     </ul>
-                </div>
-                <div class="col-md-4">
-
                 </div>
             </div>
         </div>
