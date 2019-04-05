@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>New Age - Start Bootstrap Theme</title>
+    <title>Appendix</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -104,7 +104,7 @@
     <div class="container" style="margin-bottom:50px">
 
         <div class="section-heading text-center" style="padding-top:50px;">
-            <p>Please see below for all calulations used in this project</p>
+            <p>Please see below for all calulations used in this project as well as the attached Excel sheet</p>
             <hr>
         </div>
         <div class="content-container">
@@ -112,9 +112,12 @@
             <div class="container">
                 <div class="col-md-12">
                     <a class="bh-link" href="#Cost-BTCF">Cost and Before Tax Cash Flow</a>
+                    <a class="bh-link" href="#Sizing">Sizing</a>
+                    <a class="bh-link" href="#Rates">Rates</a>
                     <a class="bh-link" href="#Loans">Loans</a>
                     <a class="bh-link" href="#Taxes">Taxes</a>
                     <a class="bh-link" href="#Evaluation">Evaluation</a>
+                    <a class="bh-link" href="data/cash_flow.xlsm">Excel Sheet</a>
                 </div>
             </div>
         </div>
@@ -124,7 +127,7 @@
         <div class="container">
             <div class="col-md-12">
                 <h1 class="text-center"> Costs and Before Tax Cash Flow </h1>
-                <h2>Sunk costs / Monthly expenses / Annual Expenses</h2>
+                <h2>Sunk Costs / Monthly Expenses / Annual Expenses</h2>
                 <p>
                     $$ Sunk Cost = Q * P    $$
                     Where \(Q \) is the Quantity of the product and \(P\) is the price of the product
@@ -156,8 +159,8 @@
                     Where: <br> <br>
                     \(Q\) is the number of beer packages to sell <br>
                     \(P\) is the price at which beer is sold  <br>
-                    Sample Calculation Operating Revenue:
-                    $$  OR = $31*4227*12 = $1572444  $$
+                    Sample Calculation Operating Revenue year 1:
+                    $$  OR = $31*4,227*12 = $1,572,444  $$
                 </p>
                 <br>
 
@@ -169,7 +172,7 @@
                     Where: <br> <br>
                     \(BTCF\) is the before tax cash flow <br>
                     Sample Calculation BTCF year 1 :
-                    $$  BTCF = 1572444-1280606 = $291838  $$
+                    $$  BTCF = 1,572,444-1,280,606 = $291,838  $$
                 </p>
             </div>
         </div>
@@ -279,7 +282,7 @@
                     \(L\) is the remaining amount to pay off the loan<br>
 
                     Sample Calculation: Year 1 loan interest paid:
-                    $$  LI =  200,000*0.008  = $2,590.63 $$
+                    $$  LI =  200,000*0.008  = $1,647.42 $$
 
 
                     The annual interest paid off is the sum of every 12 months of loan interest. E.g. Year 1 \(LI = $18,321.2\)
@@ -298,10 +301,10 @@
                     \(L\) is the remaining amount to pay off the loan<br>
 
                     Sample Calculation: Year 1 loan interest paid:
-                    $$  LI =  200,000*0.008  = $2,590.63 $$
+                    $$  LI =  4,238 -1,647 = $2,591 $$
 
 
-                    The annual principle paid off is the sum of every 12 months of loan interest. E.g. Year 1 \(LI = $18,321.2\)
+                    The annual principle paid off is the sum of every 12 months of principle repayment. E.g. Year 1 \(LI = $32,535\)
                 </p>
             </div>
         </div>
@@ -340,14 +343,14 @@
 
                 <br />
 
-                <h2>Book value (Open Book)</h2>
+                <h2>Book Value (Open Book)</h2>
                 <p>
                     The book value in the \(n^{th} \) year \(BV_n\) is calculated by the book value of the previous year minus the depreciation
                     $$ BV_n = BV_{n-1} - D_n  $$
 
                     Sample calculation: Year 2 book value:
 
-                    $$ BV_2 = 15,300-22,950 = $13,050 $$
+                    $$ BV_2 = 150,000-22,950 = $13,0050 $$
                 </p>
 
                 <br />
@@ -360,7 +363,7 @@
                     Where \(IC_n\) is the income in the  \(n^{th} \) year
 
                     Sample Calculation: Year 1 taxable income with a class 10 and class 8 group
-                    $$ TI = 12,7270 - 22,950 - 1,851   = $84,148 $$
+                    $$ TI = 291,838 - 22,950 - 1,851   = $248,716 $$
 
                 </p>
 
@@ -374,7 +377,7 @@
                     Where Tr is the compounded provincial and government tax rate
 
                     Sample Calculation: Year 1 tax due
-                    $$ T_1 = 84,148*0.12 = 10,097.76 $$
+                    $$ T_1 = 248,716*0.12 = 29,846 $$
 
                     Note: No marginal tax rates apply for these calculations.
 
@@ -382,7 +385,7 @@
 
                 <br />
 
-                <h2> Tax Due on Salvage item </h2>
+                <h2> Tax Due on Salvage Item </h2>
                 <p>
                     Tax due on salvage is the tax due after salvaging an item.
                     $$ TS = \sum^N_{k=1} [(SV_k - BV_{nk})*CCA_k] $$
@@ -404,7 +407,7 @@
 
                 <br />
 
-                <h2> Net salvage value </h2>
+                <h2> Net Salvage Value </h2>
                 <p>
                     Total money recovered after closing the book of k CCA classes less their respective taxes due
                     $$ NSV = \sum^N_{k=1} [SV_k-TS] $$
@@ -454,7 +457,7 @@
 
 
                     Sample Calculation ATCF year 1
-                    $$ NP = 248,716 - 29,846 = $21,8871 $$ATCF = 29,1838 - 29,846 = $261,993
+                    $$ NP = 248,716 - 29,846 = $21,8871 $$
 
 
                 </p>
