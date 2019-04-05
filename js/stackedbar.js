@@ -47,7 +47,7 @@ var data = [
 	{
 		"year": "10",
 		"pos": "1879216.1389747411",
-		"neg": "-1510417.6755847393"
+		"neg": "-1534179.58558474"
 	},
 	{
 		"year": "11",
@@ -57,7 +57,7 @@ var data = [
 	{
 		"year": "12",
 		"pos": "1955136.47098932",
-		"neg": "-1567921.2044783626"
+		"neg": "-1692921.20447836"
 	},
 	{
 		"year": "13",
@@ -190,10 +190,11 @@ var data2 = [
 ];
 var margin = {top: 20, right: 20, bottom: 70, left: 80},
 width = 900 - margin.left - margin.right,
-height = 500 - margin.top - margin.bottom;
+height = 550 - margin.top - margin.bottom;
 d3.select("#chart").append("button")
 .attr("type","button")
 .attr("class","btn-asset btn-outline btn-xl js-scroll-trigger")
+.attr("style","margin-bottom:20px;")
 .text("Change Layout")
 .style("position","relative")
 .style("left","5px")
@@ -232,7 +233,8 @@ svg.append("g")
     .attr("width", x.bandwidth)
     .attr("x", function(d) { return x(d.data.year); })
     .attr("y", function(d) { return y(d[1]); })
-    .attr("height", function(d) { return y(d[0]) - y(d[1]); })
+	.attr("height", function(d) { return y(d[0]) - y(d[1]); })
+	
 
 svg.append("g")
     .attr("transform", "translate(0," + y(0) + ")")
@@ -240,8 +242,23 @@ svg.append("g")
 
 svg.append("g")
     .attr("transform", "translate(" + margin.left + ",0)")
-    .call(d3.axisLeft(y));
-
+    .call(d3.axisLeft(y))
+	.attr("class", "y axis")
+svg.append("g")	
+	.append("text")
+	.text("Costs and Revenues")
+	.attr("transform", "translate(" + "12"  + ",15)" )
+	.attr("style","margin-top:10px;");
+svg.append("g")	
+.append("text")
+.text("Dollars ($)")
+.attr("transform", "translate(" + "12"  + ",225), rotate(-90)" )
+.attr("style","margin-top:10px;");
+svg.append("g")	
+.append("text")
+.text("Year")
+.attr("transform", "translate(" + "375"  + ",400)" )
+.attr("style","margin-top:10px;");
 
 
 var layout = 0, dur=0
@@ -302,8 +319,21 @@ function redraw() {
         svg.append("g")
         .attr("transform", "translate(" + margin.left + ",0)")
         .call(d3.axisLeft(y));
-
-        console.log( 0!=0);
+		svg.append("g")	
+		.append("text")
+		.text("Before Tax Cash Flow")
+		.attr("transform", "translate(" + "12"  + ",15)" )
+		.attr("style","margin-top:10px;");
+		svg.append("g")	
+		.append("text")
+		.text("Dollars ($)")
+		.attr("transform", "translate(" + "12"  + ",225), rotate(-90)" )
+		.attr("style","margin-top:10px;");
+		svg.append("g")	
+		.append("text")
+		.text("Year")
+		.attr("transform", "translate(" + "375"  + ",425)" )
+		.attr("style","margin-top:10px;");
     }
     else {
         //remove svg
@@ -344,7 +374,24 @@ function redraw() {
 
         svg.append("g")
         .attr("transform", "translate(" + margin.left + ",0)")
-        .call(d3.axisLeft(y));
+		.call(d3.axisLeft(y));
+		svg.append("g")	
+		.append("text")
+		.text("Costs and Revenues")
+		.attr("transform", "translate(" + "12"  + ",15)" )
+		.attr("style","margin-top:10px;");
+		svg.append("g")	
+		.append("text")
+		.text("Dollars ($)")
+		.attr("transform", "translate(" + "12"  + ",225), rotate(-90)" )
+		.attr("style","margin-top:10px;");
+		svg.append("g")	
+		.append("text")
+		.text("Year")
+		.attr("transform", "translate(" + "375"  + ",400)" )
+		.attr("style","margin-top:10px;");
+		
+
     }
 
 } 

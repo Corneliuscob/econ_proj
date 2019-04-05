@@ -195,3 +195,7 @@ section-alv.features .feature-item h3 {
 .dropdown:hover .dropbtn {
   background-color: #3e8e41;
 }
+#classy{
+  margin-top:10px;
+  padding-top: 15px; 
+}
