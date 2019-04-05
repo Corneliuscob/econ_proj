@@ -2,187 +2,185 @@ var data = [
     {
 		"year": "1",
 		"pos": "1572444",
-		"neg": "-1280605.52"
+		"neg": "-1280605"
 	},
 	{
 		"year": "2",
-		"pos": "1603892.88",
-		"neg": "-1301882.5104000003"
+		"pos": "1603892",
+		"neg": "-1301882"
 	},
 	{
 		"year": "3",
-		"pos": "1635970.7376000001",
-		"neg": "-1326178.9006080001"
+		"pos": "1635970",
+		"neg": "-1326178"
 	},
 	{
 		"year": "4",
-		"pos": "1668690.1523519999",
-		"neg": "-1350961.2186201601"
+		"pos": "1668690",
+		"neg": "-1350961"
 	},
 	{
 		"year": "5",
-		"pos": "1702063.9553990401",
-		"neg": "-1376239.1829925636"
+		"pos": "1702063",
+		"neg": "-1376239"
 	},
 	{
 		"year": "6",
-		"pos": "1736105.2345070208",
-		"neg": "-1402022.7066524145"
+		"pos": "1736105",
+		"neg": "-1402022"
 	},
 	{
 		"year": "7",
-		"pos": "1770827.3391971611",
-		"neg": "-1428321.9007854627"
+		"pos": "1770827",
+		"neg": "-1428321"
 	},
 	{
 		"year": "8",
-		"pos": "1806243.8859811043",
-		"neg": "-1455147.0788011719"
+		"pos": "1806243",
+		"neg": "-1455147"
 	},
 	{
 		"year": "9",
-		"pos": "1842368.7637007264",
-		"neg": "-1482508.7603771952"
+		"pos": "1842368",
+		"neg": "-1482508"
 	},
 	{
 		"year": "10",
-		"pos": "1879216.1389747411",
-		"neg": "-1534179.58558474"
+		"pos": "1879216",
+		"neg": "-1534179"
 	},
 	{
 		"year": "11",
-		"pos": "1916800.4617542357",
-		"neg": "-1538884.7690964339"
+		"pos": "1916800",
+		"neg": "-1538884"
 	},
 	{
 		"year": "12",
-		"pos": "1955136.47098932",
-		"neg": "-1692921.20447836"
+		"pos": "1955136",
+		"neg": "-1692921"
 	},
 	{
 		"year": "13",
-		"pos": "1994239.2004091069",
-		"neg": "-1644050.3685679298"
+		"pos": "1994239",
+		"neg": "-1644050"
 	},
 	{
 		"year": "14",
-		"pos": "2034123.9844172888",
-		"neg": "-1674259.8759392886"
+		"pos": "2034123",
+		"neg": "-1674259"
 	},
 	{
 		"year": "15",
-		"pos": "2074806.4641056345",
-		"neg": "-1705073.5734580741"
+		"pos": "2074806",
+		"neg": "-1705073"
 	},
 	{
 		"year": "16",
-		"pos": "2116302.5933877476",
-		"neg": "-1736503.5449272359"
+		"pos": "2116302",
+		"neg": "-1736503"
 	},
 	{
 		"year": "17",
-		"pos": "2158628.6452555023",
-		"neg": "-1768562.1158257807"
+		"pos": "2158628",
+		"neg": "-1768562"
 	},
 	{
 		"year": "18",
-		"pos": "2201801.2181606125",
-		"neg": "-1801261.8581422963"
+		"pos": "2201801",
+		"neg": "-1801261"
 	},
 	{
 		"year": "19",
-		"pos": "2245837.2425238248",
-		"neg": "-1834615.5953051425"
+		"pos": "2245837",
+		"neg": "-1834615"
 	},
 	{
 		"year": "20",
-		"pos": "2290753.9873743015",
-		"neg": "-1868636.407211245"
+		"pos": "2290753",
+		"neg": "-1868636"
 	},
-	{
-		"year": ""
-	}
+
 ];
 var data2 = [
 	{
 		"year": "1",
-		"sum": "291838.48"
+		"sum": "291838"
 	},
 	{
 		"year": "2",
-		"sum": "302010.36959999963"
+		"sum": "302010"
 	},
 	{
 		"year": "3",
-		"sum": "309791.836992"
+		"sum": "309791"
 	},
 	{
 		"year": "4",
-		"sum": "317728.93373183976"
+		"sum": "317728"
 	},
 	{
 		"year": "5",
-		"sum": "325824.77240647655"
+		"sum": "325824"
 	},
 	{
 		"year": "6",
-		"sum": "334082.52785460628"
+		"sum": "334082"
 	},
 	{
 		"year": "7",
-		"sum": "342505.43841169844"
+		"sum": "342505"
 	},
 	{
 		"year": "8",
-		"sum": "351096.80717993248"
+		"sum": "351096"
 	},
 	{
 		"year": "9",
-		"sum": "359860.00332353124"
+		"sum": "359860"
 	},
 	{
 		"year": "10",
-		"sum": "345036.55339000182"
+		"sum": "345036"
 	},
 	{
 		"year": "11",
-		"sum": "377915.69265780179"
+		"sum": "377915"
 	},
 	{
 		"year": "12",
-		"sum": "262215.26651095739"
+		"sum": "262215"
 	},
 	{
 		"year": "13",
-		"sum": "350188.83184117707"
+		"sum": "350188"
 	},
 	{
 		"year": "14",
-		"sum": "359864.10847800015"
+		"sum": "359864"
 	},
 	{
 		"year": "15",
-		"sum": "369732.89064756036"
+		"sum": "369732"
 	},
 	{
 		"year": "16",
-		"sum": "379799.04846051172"
+		"sum": "379799"
 	},
 	{
 		"year": "17",
-		"sum": "390066.52942972165"
+		"sum": "390066"
 	},
 	{
 		"year": "18",
-		"sum": "400539.36001831619"
+		"sum": "400539"
 	},
 	{
 		"year": "19",
-		"sum": "411221.64721868234"
+		"sum": "411221"
 	},
 	{
 		"year": "20",
-		"sum": "490617.5801630565"
+		"sum": "490617"
 	},
 	{
 		"year": ""
@@ -234,6 +232,13 @@ svg.append("g")
     .attr("x", function(d) { return x(d.data.year); })
     .attr("y", function(d) { return y(d[1]); })
 	.attr("height", function(d) { return y(d[0]) - y(d[1]); })
+	.on("mouseover", function(d){
+		// alert("Year: " + d.Year + ": " + d.Celsius + " Celsius");
+		d3.select("#_yr")
+			.text("Year: " + d.data.year+ ";\n Revenue ($): " + d.data.pos + ";\n Cost ($):" + d.data.neg);
+		d3.select("#degrree")
+			.text(d.Celsius + "°C");
+	});
 	
 
 svg.append("g")
@@ -259,6 +264,11 @@ svg.append("g")
 .text("Year")
 .attr("transform", "translate(" + "375"  + ",400)" )
 .attr("style","margin-top:10px;");
+svg.append("g")
+.attr("class", "infowin")
+.attr("transform", "translate(50, 475)")
+.append("text")
+.attr("id", "_yr");
 
 
 var layout = 0, dur=0
@@ -310,7 +320,14 @@ function redraw() {
         .attr("width", x.bandwidth)
         .attr("x", function(d) { return x(d.data.year); })
         .attr("y", function(d) { return y(d[1]); })
-        .attr("height", function(d) { return y(d[0]) - y(d[1]); })
+		.attr("height", function(d) { return y(d[0]) - y(d[1]); })
+		.on("mouseover", function(d){
+			// alert("Year: " + d.Year + ": " + d.Celsius + " Celsius");
+			d3.select("#_yr")
+				.text("Year: " + d.data.year+ "; BTCF ($):" + d.data.sum);
+			d3.select("#degrree")
+				.text(d.Celsius + "°C");
+		});
 
         svg.append("g")
         .attr("transform", "translate(0," + y(0) + ")")
@@ -334,6 +351,11 @@ function redraw() {
 		.text("Year")
 		.attr("transform", "translate(" + "375"  + ",425)" )
 		.attr("style","margin-top:10px;");
+		svg.append("g")
+		.attr("class", "infowin")
+		.attr("transform", "translate(50, 475)")
+		.append("text")
+		.attr("id", "_yr");
     }
     else {
         //remove svg
@@ -366,7 +388,14 @@ function redraw() {
         .attr("width", x.bandwidth)
         .attr("x", function(d) { return x(d.data.year); })
         .attr("y", function(d) { return y(d[1]); })
-        .attr("height", function(d) { return y(d[0]) - y(d[1]); })
+		.attr("height", function(d) { return y(d[0]) - y(d[1]); })
+		.on("mouseover", function(d){
+			// alert("Year: " + d.Year + ": " + d.Celsius + " Celsius");
+			d3.select("#_yr")
+				.text("Year: " + d.data.year+ ";\n Revenue ($): " + d.data.pos + ";\n Cost ($):" + d.data.neg);
+			d3.select("#degrree")
+				.text(d.Celsius + "°C");
+		});
 
         svg.append("g")
         .attr("transform", "translate(0," + y(0) + ")")
@@ -390,7 +419,11 @@ function redraw() {
 		.text("Year")
 		.attr("transform", "translate(" + "375"  + ",400)" )
 		.attr("style","margin-top:10px;");
-		
+		svg.append("g")
+		.attr("class", "infowin")
+		.attr("transform", "translate(50, 475)")
+		.append("text")
+		.attr("id", "_yr");		
 
     }
 
