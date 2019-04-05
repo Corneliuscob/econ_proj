@@ -3,10 +3,8 @@
     "",
     "\\css",
     "\\js",
-    "\\vendor",
-    "\\vendor\\bootstrap\\css",
-    "\\vendor\\bootstrap\\js"
+    "\\vendor"
   ],
-  "SelectedNode": "\\timeline.html",
+  "SelectedNode": "\\maf.html",
   "PreviewInSolutionExplorer": false
 }
